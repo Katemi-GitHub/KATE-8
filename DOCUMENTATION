@@ -1,0 +1,6 @@
+== MEMORY ==
+256 bits for RAM
+256 bits for ROM
+54 bits for registers
+1024 bits for VRAM
+1024 bits for frame buffer
