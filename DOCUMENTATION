@@ -1,6 +1,18 @@
 == MEMORY ==
-256 bits for RAM
+27,5 kylobites for RAM
 256 bits for ROM
 54 bits for registers
 1024 bits for VRAM
 1024 bits for frame buffer
+
+LDA
+image_data
+ITA
+blank
+for single pixel, repeat x64 for full frame
+
+swaps frame_buffer 1 with 2 to load the next frame
+MTB
+11111111
+MTB
+00000000
